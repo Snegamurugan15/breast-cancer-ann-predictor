@@ -1,4 +1,32 @@
-*.pkl
+# Python environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache/build files
 __pycache__/
-.vscode/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Jupyter/editor/system files
+.ipynb_checkpoints/
 .DS_Store
+.vscode/
+.idea/
+
+# Local secrets and logs
+.env
+.env.*
+*.log
+
+# Optional local outputs
+confusion_matrix.png
